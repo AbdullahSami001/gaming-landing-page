@@ -1,0 +1,245 @@
+/* header styles */
+header{
+    background: white;
+    padding: 10px;
+}
+
+.logo{
+    margin: 0;
+    display: flex;
+    position: left;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul > li{
+    list-style: none;
+    margin: 0 10px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav-title{
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    height: 100%;
+    display: flex;
+    position: relative;
+    margin-top: 0px;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+.text-pink{
+    color: #ff00ff;
+}
+
+.button a {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+
+}
+/* banner styles */
+.games-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    
+}
+
+.text-purple{
+    color: #F948B2;
+    
+}
+.online-games-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+
+}
+
+/* Features */
+.features{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    width: 100%;
+}
+.Badge-img{
+    border-radius: 8px;
+width: 318.5px;
+position: relative;
+bottom: 200px;
+
+}
+.section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 50%;
+    
+}
+
+
+    .section-title{
+        width: 100%;
+        text-align: center;
+    }
+
+    .games-img-container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        flex: wrap;
+    }
+    /* footer */
+
+    footer{
+        background:  #0B0223;
+        padding: 10px;
+        margin-top: 100px;
+
+    }
+    .text-white{
+        color: #fffafd;
+        
+    }
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .logo{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 30px;
+        position: middle;
+        align-items: center;
+        padding: 30px;
+    }
+    .footer-section{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+     
+       
+    }
+    .footer-section ul{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+     
+       
+    }
+    .footer-section ul li a{
+        color:#fffafd;
+        list-style: none;
+        margin: 20px;
+        text-decoration: none;
+
+        
+    }
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .social-icons a{
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        
+    }
+    .social-icons a:hover{
+        background: #F948B2;
+        color: #fffafd;
+    }
+    .condition{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .condition ul{
+        display: flex;
+        justify-content:center;
+       
+    }
+    .condition ul li a{
+        color:#fffafd;
+        list-style: none;
+        margin: 20px;
+        text-decoration: none;
+
+        
+    }
+    .copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        color:aliceblue;
+    }
+    /* responsive for devices */
+   @media screen and (max-width: 768px){
+       .games-container{
+           flex-direction: column;
+           align-items: center;
+       }
+       .online-games-content{
+           flex-direction: column;
+           align-items: center;
+       }
+       .features{
+           flex-direction: column;
+           align-items: center;
+       }
+       .section-text{
+           width: 100%;
+       }
+       .games-img-container{
+           flex-direction: column;
+           align-items: center;
+       }
+       .footer-container{
+           flex-direction: column;
+           align-items: center;
+       }
+       .footer-section{
+           flex-direction: column;
+           align-items: center;
+       }
+       .condition{
+           flex-direction: column;
+           align-items: center;
+       }
+   }
+    
+   
