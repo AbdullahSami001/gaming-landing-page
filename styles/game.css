@@ -103,12 +103,12 @@ h1 {
 }
 .banner-content{
     display: flex;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
 }
 .banner-goat{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -118,7 +118,8 @@ h1 {
 }
 .banner-description{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    padding: 50px;
 }
 
 .banner-img{
@@ -129,7 +130,7 @@ h1 {
 }
    .banner-btn{
          display: flex;
-         justify-content: center;
+         justify-content: left;
          color: #fffafd;
          
    }
@@ -183,8 +184,15 @@ bottom: 200px;
 
     .games-img-container{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 50px;
+        flex: wrap;
+        text-align: center;
+    }
+    .online-games-content{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
         flex: wrap;
     }
     /* footer */
